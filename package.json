@@ -1,0 +1,51 @@
+{
+  "name": "@sncrr/async-queue",
+  "version": "0.1.0",
+  "description": "A lightweight async task queue utility with configurable concurrency, task prioritization, retries with delays, auto-run or manual execution, and cancellation (per-task or entire queue). Ideal for managing background jobs, API requests, uploads, and other async workflows.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "async",
+    "queue",
+    "task-queue",
+    "concurrency",
+    "job-queue",
+    "scheduler",
+    "priority-queue",
+    "promise",
+    "retry",
+    "cancellation",
+    "batching",
+    "task-runner",
+    "workflow",
+    "background-tasks",
+    "utilities"
+  ],
+  "author": "sncrr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sncrr/async-queue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sncrr/async-queue/issues"
+  },
+  "homepage": "https://github.com/sncrr/async-queue#readme",
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
